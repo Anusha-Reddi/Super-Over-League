@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  background-color: #0f172a;
+  background-size: cover;
+}
+.heading {
+  color: #fff;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  padding-top: 120px;
+  align-self: center;
+}
+@media screen and(min-width:768px) {
+  .image {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    margin: auto;
+  }
+}
